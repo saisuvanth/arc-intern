@@ -1,0 +1,21 @@
+.mytable {
+  width: 50%;
+  overflow-x: visible;
+}
+@media screen and (max-width: 992px) {
+  .mytable {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mytable {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mytable {
+    width: 100%;
+  }
+}
